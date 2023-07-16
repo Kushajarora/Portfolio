@@ -13,11 +13,31 @@
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">\
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="assets/css/style.css" rel="stylesheet">
+    <!-- Animations -->
+      <link href="assets/css/animate.css" rel="stylesheet">
+
   </head>
   <body>
+    <div class="preloader">
+      <svg>
+        <g>
+          <path d="M 50,100 A 1,1 0 0 1 50,0"/>
+        </g>
+        <g>
+          <path d="M 50,75 A 1,1 0 0 0 50,-25"/>
+        </g>
+        <defs>
+          <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#694bff;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:hsl(233, 78%, 91%);stop-opacity:1" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+
     <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
     <header id="header" class="d-flex flex-column justify-content-center">
       <nav id="navbar" class="navbar nav-menu">
