@@ -1,4 +1,8 @@
-
+setTimeout(function() {
+  // Hide the preloader
+  var preloader = document.querySelector('.preloader');
+  preloader.style.display = 'none';
+}, 2000); 
 (function() {
   "use strict";
 
